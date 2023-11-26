@@ -1,0 +1,31 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+
+// font-family: 'Lato', sans-serif;
+
+body {
+    background-color: $dark; 
+    color: $white;
+    font-size: 16px;
+    font-family: Lato, sans-serif;
+}
+
+a {
+    color: $white;
+    transition: color 0.2s ease-in;
+    &:hover {
+        color: $hover-color;
+
+    }
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 1100px;
+
+    &--sm {
+        width: 975px;
+    }
+}

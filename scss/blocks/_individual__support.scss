@@ -1,0 +1,72 @@
+.individual__support {
+   margin-top: 150px;
+   margin-bottom: 30px;
+}
+
+.individual__cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 30px;
+    row-gap: 30px;
+    margin-top: 75px;
+}
+
+.individual__card {
+    border-radius: 5px;
+    align-items: center;
+    background-color: $white;
+    width: 240px;
+    height: 400px;
+    color: $dark;
+}
+
+.card__img {
+    padding: 0 18px;
+}
+
+.card__phone {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px
+}
+
+.phone {
+    color: $dark;
+    padding-left: 10px;
+}
+
+.card__title {
+    color: #1B242D;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    padding-top: 15px;
+}
+
+.card__subtitle {
+    color: #88939E;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px; 
+    padding-top: 12px;
+}
+
+.card__mail {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px
+}
+
+.mail {
+    color: $dark;
+    padding-left: 15px;
+    margin-right: 40px;
+}
+
+

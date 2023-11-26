@@ -1,0 +1,103 @@
+.premium__client {
+    background-image: url(./../img/benefits/BG.png);
+    min-height: 879px;
+    background-size: cover;
+}
+
+.premium__client-caption {
+    padding-top: 150px;
+}
+.premium__client-numbers {
+    padding-top: 85px;
+    display: flex;
+    column-gap: 30px;
+    justify-content: center;
+}
+
+.number__one {
+    position: relative;
+    width: 331px;
+    height: 75px;
+    color: #232A32;
+    font-size: 100px;
+    font-weight: 900;
+    &::before{
+        position: absolute;
+        left: 0;
+        top: 130px;
+        content: "";
+        display: block;
+        width: 36px;
+        height: 2px;
+        background-color: #F8BE4D;;
+    }
+}
+
+.number__two {
+    position: relative;
+    width: 331px;
+    height: 75px;
+    color: #232A32;
+    font-size: 100px;
+    font-weight: 900;
+    &::before{
+        position: absolute;
+        left: 0;
+        top: 130px;
+        content: "";
+        display: block;
+        width: 36px;
+        height: 2px;
+        background-color: #F8BE4D;;
+    }
+}
+
+
+.number__three {
+    position: relative;
+    width: 331px;
+    height: 75px;
+    color: #232A32;
+    font-size: 100px;
+    font-weight: 900;
+    &::before{
+        position: absolute;
+        left: 0;
+        top: 130px;
+        content: "";
+        display: block;
+        width: 36px;
+        height: 2px;
+        background-color: #F8BE4D;;
+    }
+}
+
+.premium__client-description {
+    padding-top: 100px;
+    display: flex;
+    column-gap: 130px;
+   
+}
+
+.discription__first {
+    display: flex;
+    
+    
+}
+
+.discription__second {
+    display: flex;
+   
+    
+}
+
+.discription__third {
+    display: flex; 
+   
+    
+    
+}
+
+.discription__client-txt {
+    padding-left: 20px;
+}

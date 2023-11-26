@@ -1,0 +1,139 @@
+.benefits {
+    background-image: url(./../img/benefits/BG.png);
+    min-height: 879px;
+    background-size: cover;
+}
+.benefits__caption {
+    padding-top: 120px;
+}
+
+.benefits__row {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+    
+}
+
+.benefits__item-img {
+    margin-top: 90px;
+    max-width: 470px;
+    min-height: 300px;
+    transition: all 0.3s ease-in;
+
+    &:hover {
+        transform: scale(1.1);
+        transition: all 0.3s ease-in;
+    }
+}
+
+.item__caption {
+    margin-top: 150px;
+    color: #F8BE4D;
+    font-family: Lato, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 14px;   
+}
+
+.text {
+    margin-top: 75px;
+    color: #88939E;
+    font-family: Lato, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+}
+
+.text span {
+    color: #fff;
+}
+
+
+.subtitle {
+    margin-top: 35px;
+    color: #FFF;
+    text-align: center;
+    font-family: Lato,sans-serif;
+    font-size: 28px;
+    font-weight: 300;
+}
+
+.benefits__form {
+    position: relative;
+    margin-top: 75px;
+    display: flex;
+    align-items: center;
+    column-gap: 45px;
+}
+
+.first__input {
+    position: relative;
+}
+.first__input::before {
+    position: absolute;
+    left: 3px;
+    top: 30px;
+    content: "";
+    display: block;
+    width: 278px;
+    height: 1px;
+    background-color: #3A434C;
+}
+
+.benefits-input {
+    position: relative;
+    border-radius: 8px;
+    width: 285px;
+    font-size: 14px;
+    padding-left: 35px;
+    color: #979797;
+}
+
+
+.first-img {
+    position: absolute;
+    left: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+.second__input {
+    position: relative;
+}
+
+.second__input::before {
+    position: absolute;
+    left: 0;
+    top: 30px;
+    content: "";
+    display: block;
+    width: 278px;
+    height: 1px;
+    background-color: #3A434C;
+}
+.second-img {
+    position: absolute;
+    left: 0;
+    width: 20px;
+    height: 20px;
+}
+
+.action-btn {
+    font-family: Lato, sans-serif;
+    border: 1px solid #F8BE4D;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    padding: 0 20px;
+    border-radius: 5px;
+    color:#fff;
+    font-size: 17px;
+    font-weight: 700;
+    transition: 0.5s;
+}
+
+.action-btn:hover {
+    background-color: #F8BE4D;
+    color: #2f3131;
+}

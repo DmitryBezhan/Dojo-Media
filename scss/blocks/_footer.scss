@@ -1,0 +1,19 @@
+.footer {
+    height: 138px;
+    background: #0D141B;
+}
+
+.footer__information {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 0px;
+}
+
+.footer-phone {
+    color: #61666B;
+    font-weight: 600;
+    & span {
+        font-weight: 400;
+    }
+}

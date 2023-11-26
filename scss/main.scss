@@ -1,0 +1,17 @@
+// Base // 
+
+@import "./base/reset";
+@import "./base/vars";
+@import "./base/base";
+
+// Blocks //
+@import "./blocks/header";
+@import "./blocks/header__title";
+@import "./blocks/action__right";
+@import "./blocks/action__left";
+@import "./blocks/premium__service";
+@import "./blocks/benefits";
+@import "./blocks/individual__support";
+@import "./blocks/premium__client";
+@import "./blocks/premium__hero";
+@import "./blocks/footer";
